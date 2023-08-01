@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+html,body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Hanken Grotesk';
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
+  box-sizing: border-box;
+  border-radius: 15px;
+  width: 580px;
+  height: 400px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 15px;
+  color: white;
+  width: 50%;
+  height: 100%;
+}
+
+.resultHeading{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Hanken Grotesk';
+  font-weight: 500;
+  font-size: 20px;
+  opacity: 0.65;
+  padding-bottom: 25px;
+  justify-self: flex-start;
+}
+
+.circle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+  width: 60%;
+  height: 43.5%;
+}
+
+.circle > h1{
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.circle > h5{
+  opacity: 0.45;
+  font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description > h3{
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.description > p{
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 0.65;
+  margin-top: 0;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.summery{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3%;
+  width: 60%;
+  height: 100%;
+  margin-left: auto;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.summery > *{
+  margin-left: 25%;
+}
+
+.summery > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 8px;
+  width: 63%;
+  height: 12%;
+  padding-right: 10px;
+}
+
+.summeryHeading{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  color: hsl(224, 30%, 27%);
+  padding-bottom: 12px;
+}
+
+.summeryHeading > h3{
+margin-bottom: 3px;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.reaction{
+  background-color: hsl(0, 100%, 67%,.13);
+}
+
+.reaction > .content > h5{
+  color: hsl(0, 100%, 67%,0.8);
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.memory{
+  background-color: hsl(39, 100%, 56%,.13);
+}
+
+.memory  > .content > h5{
+  color: hsl(39, 100%, 56%,.8);
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.verbal{
+  background-color: hsl(166, 100%, 37%,.13);
+}
+
+.verbal > .content > h5{
+  color: hsl(166, 100%, 37%,.8);
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.visual{
+  background-color: hsl(234, 85%, 45%,.13);
+}
+
+.visual > .content > h5{
+  color: hsl(234, 85%, 45%,.8);
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.continue{
+  margin-top: 12px;
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 50px !important;
+}
+
+.continue > h5{
+  font-size: 14px;
+  font-weight: 500;
+}
