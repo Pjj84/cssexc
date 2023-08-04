@@ -1,4 +1,5 @@
 import './App.css'
+import { default as visual} from'./assets/icon-visual.jsx'
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
         <span className='summeryHeading'><h3>Summery</h3></span>
         <div className='reaction'>
           <div className='content'>
-          <img alt='icon' src='/assets/images/icon-reaction.svg'></img>
+          <img alt='icon' src='assets/icon-reaction.svg'></img>
           <h5>Reaction</h5>
           </div>
           <div className='content'>
@@ -28,7 +29,7 @@ function App() {
         </div>
         <div className='memory'>
         <div className='content'>
-          <img alt='icon' src='/assets/images/icon-reaction.svg'></img>
+          <img alt='icon' src='assets/icon-memory.svg'></img>
           <h5>Memory</h5>
           </div>
           <div className='content'>
@@ -37,7 +38,7 @@ function App() {
         </div>
         <div className='verbal'>
         <div className='content'>
-          <img alt='icon' src='/assets/images/icon-reaction.svg'></img>
+          <img alt='icon' src='assets/icon-verbal.jsx'></img>
           <h5>Verbal</h5>
           </div>
           <div className='content'>
@@ -46,7 +47,7 @@ function App() {
         </div>
         <div className='visual'>
         <div className='content'>
-          <img alt='icon' src='/assets/images/icon-reaction.svg'></img>
+          <img alt='icon' src={visual} />
           <h5>Visual</h5>
           </div>
           <div className='content'>
